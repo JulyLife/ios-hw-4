@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F80107A2253880C3003BC70F /* KuwaitCD.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F80107A1253880C3003BC70F /* KuwaitCD.m4a */; };
+		F80107A625388F5E003BC70F /* someone you loved.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F80107A525388F5E003BC70F /* someone you loved.mp3 */; };
+		F80107A825389CC3003BC70F /* before you go.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F80107A725389CC2003BC70F /* before you go.mp3 */; };
+		F80107AA25389D53003BC70F /* hold me while you wait.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F80107A925389D53003BC70F /* hold me while you wait.mp3 */; };
+		F80107AC25389E51003BC70F /* bruises.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F80107AB25389E51003BC70F /* bruises.mp3 */; };
+		F80107AE2538A15A003BC70F /* the baddest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F80107AD2538A15A003BC70F /* the baddest.mp3 */; };
+		F80107B22538A2AF003BC70F /* pop stars.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F80107B12538A2AF003BC70F /* pop stars.mp3 */; };
+		F80107B42538A328003BC70F /* rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F80107B32538A328003BC70F /* rise.mp3 */; };
+		F80107B62538A534003BC70F /* stay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F80107B52538A534003BC70F /* stay.mp3 */; };
+		F80107B82538A584003BC70F /* love sick girls.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F80107B72538A584003BC70F /* love sick girls.mp3 */; };
+		F80107BA2538A607003BC70F /* how you like that.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F80107B92538A607003BC70F /* how you like that.mp3 */; };
+		F80107C02538E587003BC70F /* forever.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F80107BF2538E587003BC70F /* forever.mp3 */; };
+		F80107C22538E5C7003BC70F /* love to hate me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F80107C12538E5C7003BC70F /* love to hate me.mp3 */; };
+		F80107C42538E5E4003BC70F /* gaints.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F80107C32538E5E4003BC70F /* gaints.mp3 */; };
+		F851BFC925348F6000B3C1FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851BFC825348F6000B3C1FE /* AppDelegate.swift */; };
+		F851BFCB25348F6000B3C1FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851BFCA25348F6000B3C1FE /* SceneDelegate.swift */; };
+		F851BFCD25348F6000B3C1FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851BFCC25348F6000B3C1FE /* ViewController.swift */; };
+		F851BFD025348F6000B3C1FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F851BFCE25348F6000B3C1FE /* Main.storyboard */; };
+		F851BFD225348F6400B3C1FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F851BFD125348F6400B3C1FE /* Assets.xcassets */; };
+		F851BFD525348F6400B3C1FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F851BFD325348F6400B3C1FE /* LaunchScreen.storyboard */; };
+		F851BFDD2534951400B3C1FE /* ArtistListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851BFDC2534951400B3C1FE /* ArtistListVC.swift */; };
+		F851BFDF2534954300B3C1FE /* ArtistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851BFDE2534954300B3C1FE /* ArtistCell.swift */; };
+		F851BFE62534A4A500B3C1FE /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851BFE52534A4A500B3C1FE /* Artist.swift */; };
+		F851BFE82534A57600B3C1FE /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851BFE72534A57600B3C1FE /* Song.swift */; };
+		F851BFEC2534B79100B3C1FE /* SongsDataset.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851BFEB2534B79100B3C1FE /* SongsDataset.swift */; };
+		F851BFEF253506D800B3C1FE /* SongListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851BFEE253506D800B3C1FE /* SongListVC.swift */; };
+		F851BFF12535077300B3C1FE /* SongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851BFF02535077300B3C1FE /* SongCell.swift */; };
+		F851BFF32536559900B3C1FE /* SongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851BFF22536559900B3C1FE /* SongVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F80107A1253880C3003BC70F /* KuwaitCD.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = KuwaitCD.m4a; sourceTree = "<group>"; };
+		F80107A525388F5E003BC70F /* someone you loved.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "someone you loved.mp3"; sourceTree = "<group>"; };
+		F80107A725389CC2003BC70F /* before you go.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "before you go.mp3"; sourceTree = "<group>"; };
+		F80107A925389D53003BC70F /* hold me while you wait.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "hold me while you wait.mp3"; sourceTree = "<group>"; };
+		F80107AB25389E51003BC70F /* bruises.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bruises.mp3; sourceTree = "<group>"; };
+		F80107AD2538A15A003BC70F /* the baddest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "the baddest.mp3"; sourceTree = "<group>"; };
+		F80107B12538A2AF003BC70F /* pop stars.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "pop stars.mp3"; sourceTree = "<group>"; };
+		F80107B32538A328003BC70F /* rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rise.mp3; sourceTree = "<group>"; };
+		F80107B52538A534003BC70F /* stay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stay.mp3; sourceTree = "<group>"; };
+		F80107B72538A584003BC70F /* love sick girls.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "love sick girls.mp3"; sourceTree = "<group>"; };
+		F80107B92538A607003BC70F /* how you like that.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "how you like that.mp3"; sourceTree = "<group>"; };
+		F80107BF2538E587003BC70F /* forever.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = forever.mp3; sourceTree = "<group>"; };
+		F80107C12538E5C7003BC70F /* love to hate me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "love to hate me.mp3"; sourceTree = "<group>"; };
+		F80107C32538E5E4003BC70F /* gaints.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gaints.mp3; sourceTree = "<group>"; };
+		F851BFC525348F6000B3C1FE /* HW-5Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW-5Music.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F851BFC825348F6000B3C1FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F851BFCA25348F6000B3C1FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F851BFCC25348F6000B3C1FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F851BFCF25348F6000B3C1FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F851BFD125348F6400B3C1FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F851BFD425348F6400B3C1FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F851BFD625348F6400B3C1FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F851BFDC2534951400B3C1FE /* ArtistListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistListVC.swift; sourceTree = "<group>"; };
+		F851BFDE2534954300B3C1FE /* ArtistCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistCell.swift; sourceTree = "<group>"; };
+		F851BFE52534A4A500B3C1FE /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		F851BFE72534A57600B3C1FE /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		F851BFEB2534B79100B3C1FE /* SongsDataset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsDataset.swift; sourceTree = "<group>"; };
+		F851BFEE253506D800B3C1FE /* SongListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListVC.swift; sourceTree = "<group>"; };
+		F851BFF02535077300B3C1FE /* SongCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCell.swift; sourceTree = "<group>"; };
+		F851BFF22536559900B3C1FE /* SongVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F851BFC225348F6000B3C1FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F801079E2537A6A4003BC70F /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				F80107A1253880C3003BC70F /* KuwaitCD.m4a */,
+				F80107A525388F5E003BC70F /* someone you loved.mp3 */,
+				F80107A725389CC2003BC70F /* before you go.mp3 */,
+				F80107A925389D53003BC70F /* hold me while you wait.mp3 */,
+				F80107AB25389E51003BC70F /* bruises.mp3 */,
+				F80107BF2538E587003BC70F /* forever.mp3 */,
+				F80107AD2538A15A003BC70F /* the baddest.mp3 */,
+				F80107B12538A2AF003BC70F /* pop stars.mp3 */,
+				F80107C32538E5E4003BC70F /* gaints.mp3 */,
+				F80107B32538A328003BC70F /* rise.mp3 */,
+				F80107B52538A534003BC70F /* stay.mp3 */,
+				F80107B72538A584003BC70F /* love sick girls.mp3 */,
+				F80107B92538A607003BC70F /* how you like that.mp3 */,
+				F80107C12538E5C7003BC70F /* love to hate me.mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+		F851BFBC25348F5F00B3C1FE = {
+			isa = PBXGroup;
+			children = (
+				F851BFC725348F6000B3C1FE /* HW-5Music */,
+				F851BFC625348F6000B3C1FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F851BFC625348F6000B3C1FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F851BFC525348F6000B3C1FE /* HW-5Music.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F851BFC725348F6000B3C1FE /* HW-5Music */ = {
+			isa = PBXGroup;
+			children = (
+				F801079E2537A6A4003BC70F /* Songs */,
+				F851BFE42534989900B3C1FE /* StoryBoards */,
+				F851BFE32534989400B3C1FE /* Models */,
+				F851BFE12534982E00B3C1FE /* View Controllers */,
+				F851BFC825348F6000B3C1FE /* AppDelegate.swift */,
+				F851BFCA25348F6000B3C1FE /* SceneDelegate.swift */,
+				F851BFD125348F6400B3C1FE /* Assets.xcassets */,
+				F851BFD325348F6400B3C1FE /* LaunchScreen.storyboard */,
+				F851BFD625348F6400B3C1FE /* Info.plist */,
+			);
+			path = "HW-5Music";
+			sourceTree = "<group>";
+		};
+		F851BFE0253497FF00B3C1FE /* Artist */ = {
+			isa = PBXGroup;
+			children = (
+				F851BFDE2534954300B3C1FE /* ArtistCell.swift */,
+				F851BFDC2534951400B3C1FE /* ArtistListVC.swift */,
+			);
+			path = Artist;
+			sourceTree = "<group>";
+		};
+		F851BFE12534982E00B3C1FE /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F851BFED253506A800B3C1FE /* Songs */,
+				F851BFCC25348F6000B3C1FE /* ViewController.swift */,
+				F851BFE0253497FF00B3C1FE /* Artist */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F851BFE32534989400B3C1FE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F851BFE52534A4A500B3C1FE /* Artist.swift */,
+				F851BFE72534A57600B3C1FE /* Song.swift */,
+				F851BFEB2534B79100B3C1FE /* SongsDataset.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F851BFE42534989900B3C1FE /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				F851BFCE25348F6000B3C1FE /* Main.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		F851BFED253506A800B3C1FE /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				F851BFEE253506D800B3C1FE /* SongListVC.swift */,
+				F851BFF02535077300B3C1FE /* SongCell.swift */,
+				F851BFF22536559900B3C1FE /* SongVC.swift */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F851BFC425348F6000B3C1FE /* HW-5Music */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F851BFD925348F6400B3C1FE /* Build configuration list for PBXNativeTarget "HW-5Music" */;
+			buildPhases = (
+				F851BFC125348F6000B3C1FE /* Sources */,
+				F851BFC225348F6000B3C1FE /* Frameworks */,
+				F851BFC325348F6000B3C1FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HW-5Music";
+			productName = "HW-5Music";
+			productReference = F851BFC525348F6000B3C1FE /* HW-5Music.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F851BFBD25348F5F00B3C1FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = ghanima;
+				TargetAttributes = {
+					F851BFC425348F6000B3C1FE = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = F851BFC025348F5F00B3C1FE /* Build configuration list for PBXProject "HW-5Music" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F851BFBC25348F5F00B3C1FE;
+			productRefGroup = F851BFC625348F6000B3C1FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F851BFC425348F6000B3C1FE /* HW-5Music */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F851BFC325348F6000B3C1FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80107A625388F5E003BC70F /* someone you loved.mp3 in Resources */,
+				F80107C42538E5E4003BC70F /* gaints.mp3 in Resources */,
+				F80107C22538E5C7003BC70F /* love to hate me.mp3 in Resources */,
+				F80107AC25389E51003BC70F /* bruises.mp3 in Resources */,
+				F80107A2253880C3003BC70F /* KuwaitCD.m4a in Resources */,
+				F80107C02538E587003BC70F /* forever.mp3 in Resources */,
+				F80107BA2538A607003BC70F /* how you like that.mp3 in Resources */,
+				F851BFD525348F6400B3C1FE /* LaunchScreen.storyboard in Resources */,
+				F80107AE2538A15A003BC70F /* the baddest.mp3 in Resources */,
+				F80107AA25389D53003BC70F /* hold me while you wait.mp3 in Resources */,
+				F851BFD225348F6400B3C1FE /* Assets.xcassets in Resources */,
+				F80107B42538A328003BC70F /* rise.mp3 in Resources */,
+				F80107B62538A534003BC70F /* stay.mp3 in Resources */,
+				F80107B22538A2AF003BC70F /* pop stars.mp3 in Resources */,
+				F80107A825389CC3003BC70F /* before you go.mp3 in Resources */,
+				F80107B82538A584003BC70F /* love sick girls.mp3 in Resources */,
+				F851BFD025348F6000B3C1FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F851BFC125348F6000B3C1FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F851BFE82534A57600B3C1FE /* Song.swift in Sources */,
+				F851BFE62534A4A500B3C1FE /* Artist.swift in Sources */,
+				F851BFEF253506D800B3C1FE /* SongListVC.swift in Sources */,
+				F851BFCD25348F6000B3C1FE /* ViewController.swift in Sources */,
+				F851BFDD2534951400B3C1FE /* ArtistListVC.swift in Sources */,
+				F851BFC925348F6000B3C1FE /* AppDelegate.swift in Sources */,
+				F851BFEC2534B79100B3C1FE /* SongsDataset.swift in Sources */,
+				F851BFF32536559900B3C1FE /* SongVC.swift in Sources */,
+				F851BFDF2534954300B3C1FE /* ArtistCell.swift in Sources */,
+				F851BFF12535077300B3C1FE /* SongCell.swift in Sources */,
+				F851BFCB25348F6000B3C1FE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F851BFCE25348F6000B3C1FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F851BFCF25348F6000B3C1FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F851BFD325348F6400B3C1FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F851BFD425348F6400B3C1FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F851BFD725348F6400B3C1FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F851BFD825348F6400B3C1FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F851BFDA25348F6400B3C1FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HW-5Music/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kuwaitcodes.HW-5Music";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F851BFDB25348F6400B3C1FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HW-5Music/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kuwaitcodes.HW-5Music";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F851BFC025348F5F00B3C1FE /* Build configuration list for PBXProject "HW-5Music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F851BFD725348F6400B3C1FE /* Debug */,
+				F851BFD825348F6400B3C1FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F851BFD925348F6400B3C1FE /* Build configuration list for PBXNativeTarget "HW-5Music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F851BFDA25348F6400B3C1FE /* Debug */,
+				F851BFDB25348F6400B3C1FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F851BFBD25348F5F00B3C1FE /* Project object */;
+}
